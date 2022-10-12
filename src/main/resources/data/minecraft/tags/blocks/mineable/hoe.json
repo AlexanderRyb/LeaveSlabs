@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "leave_slab:azalea_leaves_slab",
+    "leave_slab:oak_leaves_slab",
+    "leave_slab:acacia_leaves_slab",
+    "leave_slab:birch_leaves_slab",
+    "leave_slab:spruce_leaves_slab",
+    "leave_slab:flowering_azalea_leaves_slab",
+    "leave_slab:jungle_leaves_slab",
+    "leave_slab:dark_oak_leaves_slab",
+    "leave_slab:mangrove_leaves_slab"
+  ]
+}

@@ -1,14 +1,10 @@
-package net.me.leaveslab;
+package net.acumenCascade.leaveslab;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.rendering.data.v1.RenderAttachmentBlockEntity;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
-import net.minecraft.block.SlabBlock;
+import net.minecraft.block.*;
 import net.minecraft.client.color.world.BiomeColors;
-import net.minecraft.client.color.world.FoliageColors;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
@@ -19,17 +15,16 @@ import org.slf4j.Logger;
 
 public class leaveslab implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("leave_slab");
-    public static final Block AZALEA_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(4.0f).nonOpaque().sounds(BlockSoundGroup.AZALEA_LEAVES));
-    public static final Block FLOWERING_AZALEA_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(4.0f).nonOpaque().sounds(BlockSoundGroup.FLOWERING_AZALEA));
-    public static final Block ACACIA_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(4.0f).nonOpaque().sounds(BlockSoundGroup.GRASS));
-    public static final Block BIRCH_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(4.0f).nonOpaque().sounds(BlockSoundGroup.GRASS));
-    public static final Block DARK_OAK_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(4.0f).nonOpaque().sounds(BlockSoundGroup.GRASS));
-    public static final Block JUNGLE_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(4.0f).nonOpaque().sounds(BlockSoundGroup.GRASS));
-    public static final Block MANGROVE_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(4.0f).nonOpaque().sounds(BlockSoundGroup.GRASS));
-    public static final Block OAK_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(4.0f).nonOpaque().sounds(BlockSoundGroup.GRASS));
-    public static final Block SPRUCE_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(4.0f).nonOpaque().sounds(BlockSoundGroup.GRASS));
 
-
+    public static final Block AZALEA_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.METAL).nonOpaque().strength(0.05f).requiresTool().sounds(BlockSoundGroup.AZALEA_LEAVES));
+    public static final Block FLOWERING_AZALEA_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(0.05f).requiresTool().nonOpaque().sounds(BlockSoundGroup.FLOWERING_AZALEA));
+    public static final Block ACACIA_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(0.05f).requiresTool().nonOpaque().sounds(BlockSoundGroup.GRASS));
+    public static final Block BIRCH_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(0.05f).requiresTool().nonOpaque().sounds(BlockSoundGroup.GRASS));
+    public static final Block DARK_OAK_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(0.05f).requiresTool().nonOpaque().sounds(BlockSoundGroup.GRASS));
+    public static final Block JUNGLE_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(0.05f).requiresTool().nonOpaque().sounds(BlockSoundGroup.GRASS));
+    public static final Block MANGROVE_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(0.05f).requiresTool().nonOpaque().sounds(BlockSoundGroup.GRASS));
+    public static final Block OAK_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(0.05f).requiresTool().nonOpaque().sounds(BlockSoundGroup.GRASS));
+    public static final Block SPRUCE_LEAVES_SLAB = new SlabBlock(FabricBlockSettings.of(Material.LEAVES).strength(0.05f).requiresTool().nonOpaque().sounds(BlockSoundGroup.GRASS));
 
 
     @Override

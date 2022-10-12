@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/slab",
   "textures": {
     "all": "leave_slab:block/acacia_leaves",
     "particle": "#all"
