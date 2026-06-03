@@ -1,0 +1,12 @@
+Compiled from "AbstractBlock.java"
+public abstract class net.minecraft.block.AbstractBlock implements net.minecraft.resource.featuretoggle.ToggleableFeature {
+  public net.minecraft.block.AbstractBlock(net.minecraft.block.AbstractBlock$Settings);
+  public net.minecraft.block.AbstractBlock$Settings getSettings();
+  public static <B extends net.minecraft.block.Block> com.mojang.serialization.MapCodec<B> createCodec(java.util.function.Function<net.minecraft.block.AbstractBlock$Settings, B>);
+  public net.minecraft.resource.featuretoggle.FeatureSet getRequiredFeatures();
+  public final net.minecraft.registry.RegistryKey<net.minecraft.loot.LootTable> getLootTableKey();
+  public abstract net.minecraft.item.Item asItem();
+  public net.minecraft.block.MapColor getDefaultMapColor();
+  public float getHardness();
+}
+

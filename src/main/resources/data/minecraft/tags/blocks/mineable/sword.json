@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "leave_slab:azalea_leaves_slab",
+    "leave_slab:oak_leaves_slab",
+    "leave_slab:acacia_leaves_slab",
+    "leave_slab:birch_leaves_slab"
+  ]
+}
