@@ -32,6 +32,7 @@ public class leaveslabClient implements ClientModInitializer {
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 6396257, leaveslab.SPRUCE_LEAVES_SLAB);
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 6396257, leaveslab.CHERRY_LEAVES_SLAB);
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 4764952, leaveslab.FLOWERING_AZALEA_LEAVES_SLAB);
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> 0xFFB7C4, leaveslab.CHERRY_LEAVES_SLAB);
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> BiomeColors.getFoliageColor(world, pos),
                 leaveslab.ACACIA_LEAVES_SLAB,
