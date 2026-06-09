@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "leave_slab",
+	"version": "${version}",
+	"name": "Leaves Slab",
+	"description": "A small mod that adds leaf slab blocks.",
+	"authors": [
+		""
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/leaveslabs",
+		"sources": "https://github.com/AlexanderRyb/LeaveSlabs"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.acumenCascade.leaveslab.leaveslab"
+		]
+		,
+		"client": [
+			"net.acumenCascade.leaveslab.leaveslabClient"
+		]
+	},
+	"mixins": [
+    "leave_slab.mixins.json"
+],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

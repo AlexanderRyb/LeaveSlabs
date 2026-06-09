@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nature_blocks",
+  "key": {
+    "#": "minecraft:azalea_leaves"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "leave_slab:azalea_leaves_slab"
+  }
+}

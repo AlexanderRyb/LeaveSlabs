@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "leave_slab:block/flowering_azalea_leaves",
+    "top": "leave_slab:block/flowering_azalea_leaves",
+    "side": "leave_slab:block/flowering_azalea_leaves"
+  }
+}
